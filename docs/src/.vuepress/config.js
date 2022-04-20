@@ -1,10 +1,17 @@
+/*
+ * @Author: Will
+ * @Date: 2022-04-20 13:42:35
+ * @LastEditors: Will
+ * @LastEditTime: 2022-04-20 14:22:52
+ * @Description: 请填写简介
+ */
 const { description } = require('../../package')
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: '吉亚智能',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,22 +41,26 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: '首页',
         link: '/guide/',
       },
       {
-        text: 'Config',
+        text: '解决方案',
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: '服务支持',
+        link: '/config/'
+      },
+      {
+        text: '关于我们',
+        link: '/config'
       }
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: '首页',
           collapsable: false,
           children: [
             '',
