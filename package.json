@@ -1,0 +1,19 @@
+{
+  "name": "geeeya",
+  "version": "0.0.1",
+  "description": "geeeya home",
+  "main": "index.js",
+  "authors": {
+    "name": "will",
+    "email": "liuzhixiang@geeeya.com"
+  },
+  "repository": "git@github.com:will-lzx/geeeya-webui.git/geeeya",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
